@@ -8,5 +8,9 @@ public class HelloController {
     public String sayHello() {
         return "Hello Princess! Backend is working!";
     }
+    @GetMapping("/bye")
+    public String sayBye(){
+        return "Bye bye!";
+    }
     
 }
